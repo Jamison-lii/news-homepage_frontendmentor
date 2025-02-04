@@ -11,7 +11,14 @@ const Block = () => {
              <div className='Top'>
               <img src={wide} className="wide-img"></img>
              </div>
-             <div className='bottom'></div>
+             
+             <div className='bottom'>
+              <div className='sub-left'></div>
+              <div className='sub-right'>
+                <p></p>
+                <button></button>
+              </div>
+             </div>
            </div>
 
            <div className='Right'></div>
